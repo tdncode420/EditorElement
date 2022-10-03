@@ -1,0 +1,26 @@
+{
+  "name": "editor_element",
+  "version": "1.0.0",
+  "description": "A custom editor element (a <textarea> extension class)",
+  "main": "index.js",
+  "scripts": {
+    "test": "HTMLTextAreaElement.test()"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdncode420/EditorElement.git"
+  },
+  "keywords": [
+    "editor",
+    "custom"
+  ],
+  "author": "Renegade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tdncode420/EditorElement/issues"
+  },
+  "homepage": "https://github.com/tdncode420/EditorElement#readme",
+  "dependencies": {
+    "jsdoc": "^3.6.11"
+  }
+}

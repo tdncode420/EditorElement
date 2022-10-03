@@ -1,15 +1,4 @@
-(function (root, factory) {
-    if (typeof define === 'function' && define.amd) {
-        define([], function () {
-            return factory(root);
-        });
-    } else if (typeof exports === 'object') {
-        module.exports = factory(root);
-    } else {
-        root.myPlugin = factory(root);
-    }
-})(typeof global !== 'undefined' ? global : typeof window !== 'undefined' ? window : this, function (window) {
-
+;(()=>{
     'use strict';
 
     /* Added to hold the cleared contents so that they may be reverted if needed */
@@ -41,8 +30,7 @@
 
     /** Has Selection
      * 
-     * Checks if any area within is currently
-     * highlighted/selected
+     * Checks if any area within is currently highlighted/selected
      * 
      * @returns {boolean}
      */
@@ -51,10 +39,9 @@
     };
 
 
-    /** Get Selection Text
+    /** Get Selected Text
      * 
-     * Returns the value of the currently selected
-     * text characters
+     * Get the value of the currently selected text characters
      * 
      * @returns {str}
      */
@@ -79,8 +66,7 @@
 
     /** Replace Selected Text
      * 
-     * Replace the currently selected text with the
-     * provided 'str' arg
+     * Replace the currently selected text with the provided 'str' arg
      * 
      * @param {str} replacement - the replacement value
      */
@@ -105,8 +91,7 @@
 
     /** Wrap Selection Text
      * 
-     * Wrap the currently selected/highlighted text with
-     * the provided arg
+     * Wrap the currently selected/highlighted text with the provided arg
      * 
      * @param {str} wrapper - the char/s to wrap the given characters with
      */
@@ -159,4 +144,4 @@
             this.focus()
         };
     }
-});
+})();

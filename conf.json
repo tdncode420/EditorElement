@@ -1,0 +1,12 @@
+{
+    "source": {
+        "include": [
+            "index.p.js"
+        ],
+        "exclude": [
+            "package.json",
+            "index.js",
+            "README.md"
+        ]
+    }
+}
