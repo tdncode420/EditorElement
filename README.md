@@ -1,6 +1,6 @@
 # EDITOR ELEMENT (CUSTOM)
 
-A custom "editor" element. This is nothing more than an extended class from the `<HTMLTextAreaElement>` with additional methods to provided a more "editor type" feel, as opposed to the simple and basic feel a normal `<textarea>`.
+A custom "editor" element. This is nothing more than an extended class from the `<HTMLTextAreaElement>` with additional methods to provided a more "editor type" feel, as opposed to the simple and basic feel of a normal `<textarea>`.
 
 ## HOW TO USE
 
@@ -65,7 +65,7 @@ A custom "editor" element. This is nothing more than an extended class from the 
 
 - **undoLastClear**
   - Undo and set the contents of the last clear (if any)
-  
+
 - **registerSelectedEvent**
   - Register a callback for when a "selection event" occurs.
 The value of the selection will be passed as the one and only arg. A "selection event" is a custom add-on event that fires
